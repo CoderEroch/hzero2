@@ -1,0 +1,14 @@
+
+server:
+  port: 8002
+management:
+  server:
+    port: 8001
+  endpoints:
+    web:
+      exposure:
+        include: '*'   
+spring:
+  profiles:
+    active: default
+
